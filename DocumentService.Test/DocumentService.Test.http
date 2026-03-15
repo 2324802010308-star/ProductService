@@ -1,0 +1,6 @@
+@DocumentService.Test_HostAddress = http://localhost:5070
+
+GET {{DocumentService.Test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
